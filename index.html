@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <main class="basic-color container-md my-5 p-3 fs-1 text-light text-center rounded-3">
+        <i class="fa-solid fa-book-open-reader"></i>  Book Store
+    </main>
+
+
+    <section class="container">
+        <div class="row row-cols-1">
+            <div class="col-9 border border-1">
+
+                <section class="gallery bg-light">
+                    <div class="container ">
+                        <div id="All-Products" class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-4">
+                            <div price="20" class="product-item col border">
+                                <img class=" img-fluid" src="images/book1.jpg" alt="book1">
+                                <h2 class="text-center fs-3">I'm Kind</h2>
+                                <span class="d-block text-center fs-4">20$ <a id="add-item-icon" href="#">
+                                    <i class="fa-solid fa-cart-plus"></i></a></span>
+                            </div>
+            
+                            <div price="25" class="product-item col border">
+                                <img class="img-fluid" src="images/book2.jpg" alt="book1">
+                                <h2  class="text-center fs-3">I'm Thankfull</h2>
+                                <span class="d-block text-center fs-4">25$ <a id="add-item-icon" href="#">
+                                    <i class="fa-solid fa-cart-plus"></i></a></span>
+                            </div>
+            
+                            <div  price="23" class="product-item col border">
+                                <img class="img-fluid " src="images/book3.jpg" alt="book1">
+                                <h2 class="text-center fs-3">I'm Helpfull</h2>
+                                <span class="d-block text-center fs-4">23$ <a id="add-item-icon" href="#">
+                                    <i class="fa-solid fa-cart-plus"></i></a></span>
+                            </div>
+            
+                            <div price="22" class="product-item col border">
+                                <img class=" img-fluid" src="images/book4.jpg" alt="book1">
+                                <h2  class="text-center fs-3">I Can Do It</h2>
+                                <span class="d-block text-center fs-4">22$ <a id="add-item-icon" href="#">
+                                    <i class="fa-solid fa-cart-plus"></i></a></span>
+                            </div>
+            
+                            <div price="30" class="product-item col border">
+                                <img class=" img-fluid" src="images/book5.jpg" alt="book1">
+                                <h2 class="text-center fs-3">Planet Earth</h2>
+                                <span class="d-block text-center fs-4">30$ <a id="add-item-icon" href="#">
+                                    <i class="fa-solid fa-cart-plus"></i></a></span>
+                            </div>
+            
+                            <div price="20" class="product-item col border">
+                                <img class=" img-fluid" src="images/book6.jpg" alt="book1">
+                                <h2  class="text-center fs-3">No Hitting</h2>
+                                <span class="d-block text-center fs-4">20$ <a id="add-item-icon" href="#">
+                                    <i class="fa-solid fa-cart-plus"></i></a></span>
+                            </div>
+            
+                            <div price="45" class="product-item col border">
+                                <img class=" img-fluid" src="images/book7.jpg" alt="book1">
+                                <h2  class="text-center fs-3">100 Words</h2>
+                                <span class="d-block text-center fs-4">45$ <a id="add-item-icon" href="#">
+                                    <i class="fa-solid fa-cart-plus"></i></a></span>
+                            </div>
+            
+                            <div price="40" class="product-item col border">
+                                <img class=" img-fluid" src="images/book8.jpg" alt="book1">
+                                <h2  class="text-center fs-3">100 Words</h2>
+                                <span class="d-block text-center fs-4">40$ <a id="add-item-icon" href="#">
+                                    <i class="fa-solid fa-cart-plus"></i></a></span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="col-3  p-3">
+                <div>
+                    <h2 class="basic-color text-center fs-3 text-light rounded-3">Your Card: </h2>
+                </div>
+
+                <div id="products-list" class=" border border-1 border-secondary py-3 px-1">
+                </div>
+
+                <button id="total-price-btn" class="basic-color btn btn-sm text-light d-block mx-auto mt-3 fs-5">Total Payment</button>
+                <div>
+                    <h2 id="total-price-text" class="text-center fs-3 text-light basic-color  rounded-3 my-3"></h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
